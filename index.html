@@ -10,37 +10,32 @@
 </head>
 <body>
         <div class="fundo">
-            <div class="main">
+           <form action="" name="Calculator">
+               
+                <input type="text" class="text " name="text1" disabled>
+                <input type="button" value="C" class="text1 " name="text12" onclick="location.reload()"><br>
+                
+                <input type="button" value="7" class="num hover" name="btn7" onclick="displaynum(btn7.value)">
+                <input type="button" value="8" class="num  hover" name="btn8" onclick="displaynum(btn8.value)">
+                <input type="button" value="9" class="num  hover" name="btn9" onclick="displaynum(btn9.value)">
+                <input type="button" value="+" class="num blue" name="addbtn" onclick="displaynum(addbtn.value)"><br>
 
-                    <form action="" name="Calculator">
-                        <div class="alinhamento">
-                            <input type="text" class="text maincolor" name="text1" disabled>
-                            <input type="button" value="C" class="text1 maincolor" name="text12" onclick="location.reload()"><br>
-                        </div> 
-                    
+                <input type="button" value="4" class="num  hover" name="btn4" onclick="displaynum(btn4.value)">
+                <input type="button" value="5" class="num  hover" name="btn5" onclick="displaynum(btn5.value)">
+                <input type="button" value="6" class="num  hover" name="btn6" onclick="displaynum(btn6.value)">
+                <input type="button" value="-" class="num pin" name="subbtn" onclick="displaynum(subbtn.value)"><br>
 
-                        <input type="button" value="7" class="num maincolor hover" name="btn7" onclick="displaynum(btn7.value)">
-                        <input type="button" value="8" class="num maincolor hover" name="btn8" onclick="displaynum(btn8.value)">
-                        <input type="button" value="9" class="num maincolor hover" name="btn9" onclick="displaynum(btn9.value)">
-                        <input type="button" value="+" class="num blue" name="addbtn" onclick="displaynum(addbtn.value)"><br>
+                <input type="button" value="1" class="num  hover" name="btn1" onclick="displaynum(btn1.value)">
+                <input type="button" value="2" class="num  hover" name="btn2" onclick="displaynum(btn2.value)">
+                <input type="button" value="3" class="num  hover" name="btn3" onclick="displaynum(btn3.value)">
+                <input type="button" value="*" class="num gre"  name="mulbtn" onclick="displaynum(mulbtn.value)"><br>
 
-                        <input type="button" value="4" class="num maincolor hover" name="btn4" onclick="displaynum(btn4.value)">
-                        <input type="button" value="5" class="num maincolor hover" name="btn5" onclick="displaynum(btn5.value)">
-                        <input type="button" value="6" class="num maincolor hover" name="btn6" onclick="displaynum(btn6.value)">
-                        <input type="button" value="-" class="num pin" name="subbtn" onclick="displaynum(subbtn.value)"><br>
+                <input type="button" value="," class="num  hover" name="dot" onclick="displaynum(dot.value)">
+                <input type="button" value="0" class="num  hover" name="btn0" onclick="displaynum(btn0.value)">
+                <input type="button" value="=" class="num pur" name="eqlbtn" onclick="text1.value=eval(text1.value)">
+                <input type="button" value="/" class="num ora" name="divbtn" onclick="displaynum(divbtn.value)"><br>
 
-                        <input type="button" value="1" class="num maincolor hover" name="btn1" onclick="displaynum(btn1.value)">
-                        <input type="button" value="2" class="num maincolor hover" name="btn2" onclick="displaynum(btn2.value)">
-                        <input type="button" value="3" class="num maincolor hover" name="btn3" onclick="displaynum(btn3.value)">
-                        <input type="button" value="*" class="num gre" name="mulbtn" onclick="displaynum(mulbtn.value)"><br>
-
-                        <input type="button" value="," class="num maincolor hover" name="dot" onclick="displaynum(dot.value)">
-                        <input type="button" value="0" class="num maincolor hover" name="btn0" onclick="displaynum(btn0.value)">
-                        <input type="button" value="=" class="num pur" name="eqlbtn" onclick="text1.value=eval(text1.value)">
-                        <input type="button" value="/" class="num ora" name="divbtn" onclick="displaynum(divbtn.value)"><br>
-
-                    </form>
-            </div>
+            </form>
         </div>
 </body>
 <script src="script.js">

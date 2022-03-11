@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-
+/* --------------------------------------------------------------Style do corpo do site  */
 body{
     font-family: 'Bebas Neue', cursive;
     width: 99%;
@@ -12,6 +12,8 @@ body{
     
 }
 
+/* --------------------------------------------------------------Style dos inputs  */
+
 input{
     color: white;
     padding: 17px;
@@ -21,9 +23,9 @@ input{
     border-radius: 5px
 }
 
+/* --------------------------------------------------------------Fundo da calculadora com efeito Glass  */
 
    
-
 .fundo{
     height: 500px;
     align-items: center;
@@ -40,16 +42,12 @@ input{
     border-right: 1px solid rgba(255, 255, 255, 0.2);
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     
-    
 }
-.main{
-    display: flex;
+/* -------------------------------------------------------------- onde esta localizado os botões  */
     
-    
-}
-.maincolor{
-    background-color: black;
-}
+
+/* -------------------------------------------------------------- Efeito Glass nos botôes  */
+
 .num{
     color: black;
     width: 64px;
@@ -63,6 +61,8 @@ input{
     border-right: 1px solid rgba(255, 255, 255, 0.2);
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
+/* --------------------------------------------------------------Efeito Glass no botão "C" */
+
 .text{
     color: black;
     width: 160px;
@@ -95,6 +95,10 @@ input{
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 
 }
+
+/* --------------------------------------------------------------Botões laterais com cores  */
+
+
 .blue{
     background-color: #0cd0cd;
     opacity:0.6 ;
@@ -115,6 +119,9 @@ input{
     background-color: #fcb707;
     opacity:0.6 ;
 }
+
+/* --------------------------------------------------------------Botões com efeito HOVER  */
+
 .hover{
     transition: 0.3s;
 }
